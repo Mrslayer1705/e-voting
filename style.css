@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero {
+    margin: 20px 0;
+}
+
+.start-voting {
+    background: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.auth-buttons {
+    margin: 20px 0;
+}
+
+.how-it-works, .benefits, .security-features, .support, .testimonials, .countdown {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+}
+
+.step {
+    background: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1;
+    margin: 5px;
+    text-align: center;
+}
+
+.benefit {
+    margin: 10px 0;
+}
+
+.live-updates {
+    background: #ffc107;
+    padding: 10px;
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.countdown {
+    text-align: center;
+    font-size: 24px;
+}
